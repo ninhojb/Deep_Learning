@@ -62,7 +62,7 @@ previsoes = normalizador.inverse_transform(previsoes)
 print(previsoes.mean())
 print(preco_real_teste.mean())
 
-#criando Mapa
+#criando Grafico
 plt.plot(preco_real_teste, color='red', label='Preço Real')
 plt.plot(previsoes, color='blue', label= 'Previsoes')
 plt.title('Previsão preço das açoes')
